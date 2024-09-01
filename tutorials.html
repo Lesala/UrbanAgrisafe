@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+<script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+<df-messenger
+  project-id="urbarnfarmingbot"
+  agent-id="379227e3-d17a-4f86-9de2-0e9760bb2b48"
+  language-code="en"
+  max-query-length="-1">
+  <df-messenger-chat-bubble
+   chat-title="Urban Farming Bot">
+  </df-messenger-chat-bubble>
+</df-messenger>
+<style>
+  df-messenger {
+    z-index: 999;
+    position: fixed;
+    --df-messenger-font-color: #000;
+    --df-messenger-font-family: Google Sans;
+    --df-messenger-chat-background: #f3f6fc;
+    --df-messenger-message-user-background: #d3e3fd;
+    --df-messenger-message-bot-background: #fff;
+    bottom: 100px;
+    right: 16px;
+  }
+</style>
+<style>
+  df-messenger {
+   --df-messenger-bot-message: #878fac;
+   --df-messenger-button-titlebar-color: #df9b56;
+   --df-messenger-chat-background-color: #fafafa;
+   --df-messenger-font-color: white;
+   --df-messenger-send-icon: #878fac;
+   --df-messenger-user-message: #479b3d;
+  }
+</style>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Tutorials - UrbanAgriSafe</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/icon3.jpg" rel="icon">
+  <link href="assets/img/icon3.jpg" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Marcellus:wght@400&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  
+  <style>
+    .post-content a.readmore {
+      color: #006E7D; /* Petrol green */
+      transition: color 0.3s ease; /* Smooth transition */
+    }
+
+    .post-content a.readmore:hover {
+      color: #004953; /* Darker petrol green on hover */
+    }
+  </style>
+</head>
+
+<body class="blog-page">
+
+  <header id="header" class="header d-flex align-items-center position-relative">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/logo16.jpg" alt="AgriCulture">
+        <!-- <h1 class="sitename">AgriCulture</h1>  -->
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Our Services</a></li>
+          <li><a href="tutorials.html">Tutorials</a></li>
+          <li><a href="articles.html">Articles</a></li>
+          <li><a href="https://crop-recommendation-4suagaza7ojctk6kdwtnpg.streamlit.app/">Recommendation</a></li>
+          <li><a href="https://iranzi-innocent.github.io/CSIBOT/">Algorithm</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title dark-background" data-aos="fade" style="background-image: url(assets/img/page-title-bg.webp);">
+      <div class="container position-relative">
+        <h1>Tutorials</h1>
+        <p>
+          Home
+          /
+          Tutorials</p>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">tutorials</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- tutorials Posts 2 Section -->
+    <section id="blog-posts-2" class="blog-posts-2 section">
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4">
+            <article class="position-relative h-60">
+              <div class="post-img position-relative overflow-hidden">
+                <section id="video" class="video section position-relative overflow-hidden">
+                  <img src="assets/img/tutorials/tuto1.jpg" alt="Image" class="img-fluid">
+                  <a href="https://www.youtube.com/watch?v=OOLgbkq_P4Y&t=210s" class="glightbox pulsating-play-btn">
+                    <span class="play"><i class="bi bi-play-fill"></i></span>
+                  </a>
+                </section>
+              </div>
+              <div class="post-content d-flex flex-column">
+                <h3 class="post-title">Efficient Watering Methods for Urban Gardens</h3>
+                <a href="#" class="readmore stretched-link" data-bs-toggle="collapse" data-bs-target="#collapseDescription1"><span><b>Description</b></span>
+                  <i class="bi bi-arrow-down"></i></a>
+                <div class="collapse" id="collapseDescription1">
+                  <p>
+                    Discover efficient watering practices for urban agriculture. This tutorial discusses watering schedules, irrigation systems, water conservation strategies, and how to maintain optimal soil moisture levels for urban crops.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-lg-4">
+            <article class="position-relative h-60">
+              <div class="post-img position-relative overflow-hidden">
+                <section id="video" class="video section position-relative overflow-hidden">
+                  <img src="assets/img/tutorials/tuto10.jpg" alt="Image" class="img-fluid">
+                  <a href="https://www.youtube.com/watch?v=-7MBTsO_SaY" class="glightbox pulsating-play-btn">
+                    <span class="play"><i class="bi bi-play-fill"></i></span>
+                  </a>
+                </section>
+              </div>
+              <div class="post-content d-flex flex-column">
+                <h3 class="post-title">Planting Techniques for Urban Farming</h3>
+                <a href="#" class="readmore stretched-link" data-bs-toggle="collapse" data-bs-target="#collapseDescription2"><span><b>Description</b></span>
+                  <i class="bi bi-arrow-down"></i></a>
+                <div class="collapse" id="collapseDescription2">
+                  <p>
+                    Learn essential techniques and best practices for planting various crops in urban environments.
+                    This tutorial covers soil preparation, seed selection, planting methods, and maintenance tips.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-lg-4">
+            <article class="position-relative h-60">
+              <div class="post-img position-relative overflow-hidden">
+                <section id="video" class="video section position-relative overflow-hidden">
+                  <img src="assets/img/tutorials/tuto3.jpg" alt="Image" class="img-fluid">
+                  <a href="https://www.youtube.com/watch?v=6u3aOKqMSko" class="glightbox pulsating-play-btn">
+                    <span class="play"><i class="bi bi-play-fill"></i></span>
+                  </a>
+                </section>
+              </div>
+              <div class="post-content d-flex flex-column">
+                <h3 class="post-title">Effective Mulching for Urban Gardens</h3>
+                <a href="#" class="readmore stretched-link" data-bs-toggle="collapse" data-bs-target="#collapseDescription3"><span><b>Description</b></span>
+                  <i class="bi bi-arrow-down"></i></a>
+                <div class="collapse" id="collapseDescription3">
+                  <p>
+                    Explore the benefits of mulching in urban farming. This tutorial guides
+                    you through different types of mulch, application methods, and how mulching can conserve water, suppress weeds, and improve soil health.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-lg-4">
+            <article class="position-relative h-60">
+              <div class="post-img position-relative overflow-hidden">
+                <section id="video" class="video section position-relative overflow-hidden">
+                  <img src="assets/img/tutorials/tuto12.jpg" alt="Image" class="img-fluid">
+                  <a href="https://www.youtube.com/watch?v=CxJq5B2j3FE" class="glightbox pulsating-play-btn">
+                    <span class="play"><i class="bi bi-play-fill"></i></span>
+                  </a>
+                </section>
+              </div>
+              <div class="post-content d-flex flex-column">
+                <h3 class="post-title">Urban Lawn Care: Mowing Techniques</h3>
+                <a href="#" class="readmore stretched-link" data-bs-toggle="collapse" data-bs-target="#collapseDescription4"><span><b>Description</b></span>
+                  <i class="bi bi-arrow-down"></i></a>
+                <div class="collapse" id="collapseDescription4">
+                  <p>
+                    Learn the proper techniques for mowing lawns in urban settings. This tutorial provides insights into lawn mowing schedules, equipment selection, mowing heights, and tips for maintaining healthy and attractive urban lawns.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-lg-4">
+            <article class="position-relative h-60">
+              <div class="post-img position-relative overflow-hidden">
+                <section id="video" class="video section position-relative overflow-hidden">
+                  <img src="assets/img/tutorials/tuto7.jpg" alt="Image" class="img-fluid">
+                  <a href="https://www.youtube.com/watch?v=Awtw0GAKb2c" class="glightbox pulsating-play-btn">
+                    <span class="play"><i class="bi bi-play-fill"></i></span>
+                  </a>
+                </section>
+              </div>
+              <div class="post-content d-flex flex-column">
+                <h3 class="post-title">Seed Planting Strategies for Urban Environments</h3>
+                <a href="#" class="readmore stretched-link" data-bs-toggle="collapse" data-bs-target="#collapseDescription5"><span><b>Description</b></span>
+                  <i class="bi bi-arrow-down"></i></a>
+                <div class="collapse" id="collapseDescription5">
+                  <p>
+                    Master the art of seed planting in urban farming. This tutorial discusses seed types, planting depths, spacing,and tips for ensuring successful germination and growth in limited spaces.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-lg-4">
+            <article class="position-relative h-60">
+              <div class="post-img position-relative overflow-hidden">
+                <section id="video" class="video section position-relative overflow-hidden">
+                  <img src="assets/img/tutorials/tuto8.webp" alt="Image" class="img-fluid">
+                  <a href="https://www.youtube.com/watch?v=S1pZMEdLg7Q" class="glightbox pulsating-play-btn">
+                    <span class="play"><i class="bi bi-play-fill"></i></span>
+                  </a>
+                </section>
+              </div>
+              <div class="post-content d-flex flex-column">
+                <h3 class="post-title">Urban Plowing Techniques Demystified</h3>
+                <a href="#" class="readmore stretched-link" data-bs-toggle="collapse" data-bs-target="#collapseDescription6"><span><b>Description</b></span>
+                  <i class="bi bi-arrow-down"></i></a>
+                <div class="collapse" id="collapseDescription6">
+                  <p>
+                    Learn about plowing techniques suitable for urban farming. This tutorial covers equipment options, soil preparation, 
+                      timing considerations, and sustainable practices for effective urban plowing.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-lg-4">
+            <article class="position-relative h-60">
+              <div class="post-img position-relative overflow-hidden">
+                <section id="video" class="video section position-relative overflow-hidden">
+                  <img src="assets/img/tutorials/tuto10.jpg" alt="Image" class="img-fluid">
+                  <a href="https://www.youtube.com/watch?v=20ujPD0A2cg" class="glightbox pulsating-play-btn">
+                    <span class="play"><i class="bi bi-play-fill"></i></span>
+                  </a>
+                </section>
+              </div>
+              <div class="post-content d-flex flex-column">
+                <h3 class="post-title">Planting Techniques for Urban Farming</h3>
+                <a href="#" class="readmore stretched-link" data-bs-toggle="collapse" data-bs-target="#collapseDescription7"><span><b>Description</b></span>
+                  <i class="bi bi-arrow-down"></i></a>
+                <div class="collapse" id="collapseDescription7">
+                  <p>
+                    Learn essential techniques and best practices for planting various crops in urban environments. This tutorial covers soil preparation, seed selection, planting methods, and maintenance tips.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-lg-4">
+            <article class="position-relative h-60">
+              <div class="post-img position-relative overflow-hidden">
+                <section id="video" class="video section position-relative overflow-hidden">
+                  <img src="assets/img/tutorials/tuto3.jpg" alt="Image" class="img-fluid">
+                  <a href="https://www.youtube.com/watch?v=H1JaHXSssIE" class="glightbox pulsating-play-btn">
+                    <span class="play"><i class="bi bi-play-fill"></i></span>
+                  </a>
+                </section>
+              </div>
+              <div class="post-content d-flex flex-column">
+                <h3 class="post-title">Effective Mulching for Urban Gardens</h3>
+                <a href="#" class="readmore stretched-link" data-bs-toggle="collapse" data-bs-target="#collapseDescription8"><span><b>Description</b></span>
+                  <i class="bi bi-arrow-down"></i></a>
+                <div class="collapse" id="collapseDescription8">
+                  <p>
+                    Explore the benefits of mulching in urban farming. This tutorial guides you through different types of mulch, application methods, and how mulching can conserve water, suppress weeds, and improve soil health.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-lg-4">
+            <article class="position-relative h-60">
+              <div class="post-img position-relative overflow-hidden">
+                <section id="video" class="video section position-relative overflow-hidden">
+                  <img src="assets/img/tutorials/tuto12.jpg" alt="Image" class="img-fluid">
+                  <a href="https://www.youtube.com/watch?v=4Tdb2i6uh4I" class="glightbox pulsating-play-btn">
+                    <span class="play"><i class="bi bi-play-fill"></i></span>
+                  </a>
+                </section>
+              </div>
+              <div class="post-content d-flex flex-column">
+                <h3 class="post-title">Urban Lawn Care: Mowing Techniques</h3>
+                <a href="#" class="readmore stretched-link" data-bs-toggle="collapse" data-bs-target="#collapseDescription9"><span><b>Description</b></span>
+                  <i class="bi bi-arrow-down"></i></a>
+                <div class="collapse" id="collapseDescription9">
+                  <p>
+                    Learn the proper techniques for mowing lawns in urban settings. This tutorial provides insights into lawn mowing schedules, equipment selection, mowing heights, and tips for maintaining healthy and attractive urban lawns.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div><!-- End post list item -->
+        </div><!-- End blog posts list -->
+      </div>
+    </section>
+  </main><!-- End #main -->
+
+</main>
+
+<footer id="footer" class="footer dark-background">
+
+  <div class="footer-top">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">UrbanAgriSafe</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p> Qwetu II USIU Road</p>
+            <p>Roysambu</p>
+            <p>Nairobi</p>
+            <p>Kenya</p>
+            <!-- <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+            <p><strong>Email:</strong> <span>info@example.com</span></p> -->
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Tutotials</a></li>
+            <li><a href="#">Map</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">Training Tutorials</a></li>
+            <li><a href="#">Workshop</a></li>
+            <li><a href="#">Mapping</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          
+            <img src="assets/img/logo90.jpg" alt="AgriCulture" style="width: 150px;height: auto;">
+          
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="copyright text-center">
+    <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
+
+      <div class="d-flex flex-column align-items-center align-items-lg-start">
+        <div>
+          © Copyright <strong><span>UrbanAgriSafe</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          Designed by <a href="https://bootstrapmade.com/">DenDesign</a>
+        </div>
+      </div>
+
+      <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+      </div>
+
+    </div>
+  </div>
+
+</footer>
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
