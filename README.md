@@ -1,1 +1,4 @@
 # UrbanAgrisafe
+UrbanAfrisafe is a project dedicated to enhancing agricultural production in urban settings by optimizing available spaces and recommending crops suited to local soil quality. It utilizes innovative farming techniques such as hydroponics and vertical farming to grow crops efficiently in limited urban spaces. By integrating soil quality analysis, UrbanAfrisafe provides tailored crop recommendations, ensuring that farmers can make informed decisions for optimal yields.
+
+This project aims to promote food security, sustainability, and economic growth in urban areas, especially in regions facing space and resource constraints. Through resource-efficient urban agriculture solutions, UrbanAfrisafe supports environmental stewardship, community resilience, and a more sustainable urban food supply.
