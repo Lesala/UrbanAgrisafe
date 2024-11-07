@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+<script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+<df-messenger
+  project-id="urbarnfarmingbot"
+  agent-id="379227e3-d17a-4f86-9de2-0e9760bb2b48"
+  language-code="en"
+  max-query-length="-1">
+  <df-messenger-chat-bubble
+   chat-title="Urban Farming Bot">
+  </df-messenger-chat-bubble>
+</df-messenger>
+<style>
+  df-messenger {
+    z-index: 999;
+    position: fixed;
+    --df-messenger-font-color: #000;
+    --df-messenger-font-family: Google Sans;
+    --df-messenger-chat-background: #f3f6fc;
+    --df-messenger-message-user-background: #d3e3fd;
+    --df-messenger-message-bot-background: #fff;
+    bottom: 100px;
+    right: 16px;
+  }
+</style>
+<style>
+  df-messenger {
+   --df-messenger-bot-message: #878fac;
+   --df-messenger-button-titlebar-color: #df9b56;
+   --df-messenger-chat-background-color: #fafafa;
+   --df-messenger-font-color: white;
+   --df-messenger-send-icon: #878fac;
+   --df-messenger-user-message: #479b3d;
+  }
+</style>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Articles - UrbanAgriSafe</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/icon3.jpg" rel="icon">
+  <link href="assets/img/icon3.jpg" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Marcellus:wght@400&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="articles-page">
+
+  <header id="header" class="header d-flex align-items-center position-relative">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/logo16.jpg" alt="AgriCulture">
+        <!-- <h1 class="sitename">AgriCulture</h1>  -->
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Our Services</a></li>
+          <li><a href="tutorials.html">Tutorials</a></li>
+          <li><a href="articles.html">Articles</a></li>
+          <li><a href="https://crop-recommendation-4suagaza7ojctk6kdwtnpg.streamlit.app/">Recommendation</a></li>
+          <li><a href="https://iranzi-innocent.github.io/CSIBOT/">Algorithm</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title dark-background" data-aos="fade" style="background-image: url(assets/img/page-title-bg.webp);">
+      <div class="container position-relative">
+        <h1>Articles</h1>
+        <p>
+          Home /
+          Articles
+        </p>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Articles</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Articles Section -->
+    <section class="articles section" id="articles">
+      <div class="container" data-aos="fade-up">
+        <h2>Latest Articles on Urban Farming and Food Security</h2>
+        <p>Explore our latest insights and updates on sustainable urban farming and enhancing food security.</p>
+
+        <div class="row">
+          <div class="col-md-4 mb-4 mb-md-4">
+            <div class="article">
+              <img src="assets/img/articles/article1.jpg" alt="Article 1">
+              <div class="article-content">
+                <h3>Urban agriCulture and innovative production</h3>
+                <p> Are you farming or gardening in a city or suburb? 
+                  From community gardens to indoor vertical farms, urban 
+                  agriculture provides critical access to healthy food for local 
+                  communities, as well as jobs, increased green spaces, and 
+                  closer community ties.</p>
+                <a href="assets/img/articles/article1.pdf" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4 mb-md-4">
+            <div class="article">
+              <img src="assets/img/articles/article2.jpg" alt="Article 2">
+              <div class="article-content">
+                <h3>Urban Agriculture Strategies</h3>
+                <p>Urban agriculture is the process of growing, producing and recycling food scraps in the urban 
+                  environment. This might include backyard vegetable gardens, laneway gardens, planter 
+                  boxes or larger scale urban community food growing. It can also include local processing and 
+                  preserving of food and the composting of food waste. </p>
+                <a href="assets/img/articles/article2.pdf" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4 mb-md-4">
+            <div class="article">
+              <img src="assets/img/articles/article3.jpg" alt="Article 3">
+              <div class="article-content">
+                <h3>Urban Farming-A Stastainable Smart Farming Approach</h3>
+                <p>As rural-urban migration is increasing, the urbanisation poses 
+                  a number challenges viz., food insecurity, environmental 
+                  pollution, unequal distribution of resources, etc.  Among the 
+                  many challenges, food provision is gaining importance but omitted 
+                  or neglected for long period.</p>
+                <a href="assets/img/articles/article3.pdf" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4 mb-md-4">
+            <div class="article">
+              <img src="assets/img/articles/article4.jpg" alt="Article 4">
+              <div class="article-content">
+                <h3>Partnership For Sustainable Communities</h3>
+                <p>As communities look for sustainable reuses for brownfield 
+                  and other abandoned properties and opportunities to provide 
+                  healthier food choices to the community, interest in 
+                  establishing community gardens and other forms of farming 
+                  has been growing in urban areas. Urban farms, however, 
+                  present unique challenges that are different from 
+                  conventional agricultural development.</p>
+                <a href="assets/img/articles/article4.pdf" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4 mb-md-4">
+            <div class="article">
+              <img src="assets/img/articles/article5.jpg" alt="Article 5">
+              <div class="article-content">
+                <h3>Urban agriculture
+                  and local food production:
+                  feeding our cities future</h3>
+                <p> Nowadays more than 50% of the world population 
+                  (3.3 milliard people) is living in cities. In the 
+                  Netherlands, the urban population is already more 
+                  than 75%. After WWII the main Dutch spatial planning 
+                  policy was to concentrate or cluster urbanization.</p>
+                <a href="assets/img/articles/article5.pdf" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4 mb-md-4">
+            <div class="article">
+              <img src="assets/img/articles/article6.jpg" alt="Article 6">
+              <div class="article-content">
+                <h3>Urban Agriculture Impacts: Social, Health, and Economic: 
+                  A Literature Review</h3>
+                <p>Across the nation, cities and metropolitan areas and their adjoining peri-urban commu
+                  nities are seeing their landscapes and neighborhoods reflect a growing urban agriculture (UA) 
+                  movement. Backyard chickens, community gardens, farmers markets, and community supported 
+                  agriculture programs (CSAs) are gaining popularity, as local food continues to find its place on 
+                  the tables of urban residents.</p>
+                <a href="assets/img/articles/article6.pdf" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4 mb-md-4">
+            <div class="article">
+              <img src="assets/img/articles/article7.jpg" alt="Article 7">
+              <div class="article-content">
+                <h3>Food For The Cities</h3>
+                <p>The task of feeding the world's cities adequately constitutes an increasingly pressing
+                  challenge, requiring the co-ordinated interaction of food producers, transporters,
+                  market operators and a myriad of retail sellers. [...] Not least, it involves a shared
+                  understanding among city officials and national and international development
+                  agencies of the common problems and the potential solutions faced when seeking to
+                  feed cities on a sustainable basis.</p>
+                <a href="assets/img/articles/article7.pdf" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4 mb-md-4">
+            <div class="article">
+              <img src="assets/img/articles/article11.jpg" alt="Article 8">
+              <div class="article-content">
+                <h3>Urban Agriculture:Findings from Four City Case Studies</h3> 
+                <p>Urbanization is one of the defining phenomena of the 21st century.  More people live in cities today than ever 
+                  before in history, and by 2050 as many people will live in urban areas as the total world population in 2000.  Cities 
+                  enable economic progress, promote innovation and social cohesion, and improve access for millions of people to 
+                  healthcare, education, safe drinking water and electricity, in addition to promoting diversity and cultural activities, 
+                  such as theater, music, and art.</p>
+                <a href="assets/img/articles/article11.pdf" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4 mb-md-4">
+            <div class="article">
+              <img src="assets/img/articles/article13.jpg" alt="Article 9">
+              <div class="article-content">
+                <h3>Cultivating Urban Agriculture in New York City</h3>
+                <p>In this report, the NYC Mayor’s Office of Urban Agriculture (MOUA) will 
+                  detail how the office plans to grow New Yorkers’ awareness, access, 
+                  and activity through urban agriculture in the city.</p>
+                <a href="assets/img/articles/article13.pdf" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4 mb-md-4">
+            <div class="article">
+              <img src="assets/img/articles/article10.jpg" alt="Article 10">
+              <div class="article-content">
+                <h3>Sustainable Practices for Urban Agriculturein Amman</h3>
+                <p>Urban agriculture was historically widely practiced in urban areas in Jordan and the Levant. 
+                  The traditional plant palette included fruits such as citrus, figs, pomegranates, grapes, and 
+                  stone fruits. Growing vegetables such as tomatoes, cucumbers, radishes, as well as herbs 
+                  such as mint, parsley, and basil was also widely practiced.</p>
+                <a href="assets/img/articles/article10.pdf" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4 mb-md-4">
+            <div class="article">
+              <img src="assets/img/articles/article14.jpg" alt="Article 11">
+              <div class="article-content">
+                <h3>Introduction to the Concepts and Types of Urban Agriculture</h3>
+                <p> How can we define what urban agriculture is and what factors are behind the growth of
+                  (peri-)urban agriculture? How do trends in food consumption, urban planning and
+                  professionals influence the development of urban agriculture?.</p>
+                <a href="assets/img/articles/article14.pdf" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4 mb-md-4">
+            <div class="article">
+              <img src="assets/img/articles/article12.jpg" alt="Article 12">
+              <div class="article-content">
+                <h3>Best Practices for the Sustainable Urban Farm</h3>
+                <p>For decades, Urban Farms and comunity 
+                  gardens have helped meet the demand for fresh, 
+                  local produce. Urban farms are diverse and 
+                  adaptable, ranging from small farms on repurposed 
+                  vacant lots to multilevel vertical farms and rooftop 
+                  gardens. Often, they combine ecological farming 
+                  practices with some form of infrastructure. </p>
+                <a href="assets/img/articles/article12.pdf" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Articles Section -->
+    <!-- Call to Action -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">UrbanAgriSafe</span>
+            </a>
+            <div class="footer-contact pt-3">
+              <p> Qwetu II USIU Road</p>
+              <p>Roysambu</p>
+              <p>Nairobi</p>
+              <p>Kenya</p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Tutorials</a></li>
+              <li><a href="#">Map</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><a href="#">Training Tutorials</a></li>
+              <li><a href="#">Workshop</a></li>
+              <li><a href="#">Mapping</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <img src="assets/img/logo90.jpg" alt="AgriCulture" style="width: 150px;height: auto;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright text-center">
+      <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
+        <div class="d-flex flex-column align-items-center align-items-lg-start">
+          <div>
+            © Copyright <strong><span>UrbanAgriSafe</span></strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+            Designed by <a href="https://bootstrapmade.com/">DenDesign</a>
+          </div>
+        </div>
+
+        <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
+          <a href=""><i class="bi bi-twitter-x"></i></a>
+          <a href=""><i class="bi bi-facebook"></i></a>
+          <a href=""><i class="bi bi-instagram"></i></a>
+          <a href=""><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <!-- Chatbot Functionality -->
+  <script>
+    function openChat() {
+      // Replace 'https://your-chatbot-url.com' with your chatbot's actual URL
+      const chatbotUrl = 'https://your-chatbot-url.com';
+      window.open(chatbotUrl, 'Chat', 'width=400,height=600');
+    }
+  </script>
+
+</body>
+
+</html>
